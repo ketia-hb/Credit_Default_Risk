@@ -47,10 +47,10 @@ Ce projet analyse le jeu de données **German Credit Dataset** et construit un m
 |---|---|
 | Nombre d'observations | 1 000 clients |
 | Nombre de variables | 9 |
-| Variable cible | `Default` (Good / Bad) |
+| Variable expliquée | `Default` (Good / Bad) |
 | Valeurs manquantes | Supprimées |
 
-### Variables du dataset
+### Variables 
 
 | Variable | Type | Description |
 |---|---|---|
@@ -79,14 +79,16 @@ credit-scoring-germany/
 │   └── credit_scoring.ipynb       # Analyse complète
 │
 ├── data/
-│   └── german_credit_data.csv     # Dataset source
+│   └── german_credit_data.csv     # source Data
 │
-└── images/                        # Visualisations exportées
-    ├── distributions.png
-    ├── correlation_matrix.png
-    └── confusion_matrix.png
-```
-
+└── Graphiques/                    # Visualisations 
+    ├── target_distribution.png
+    ├── boxplots_default.png
+    ├── default_rate_by_category.png
+    ├── logit_coefficients.png
+    ├── feature_importance.png
+    ├── confusion_matrices.png
+    └── roc_curves.png
 ---
 
 ## 🔬 Méthodologie
@@ -116,25 +118,48 @@ credit-scoring-germany/
 ## 📈 Principaux Résultats
 
 ### Statistiques descriptives
-
+ 
 | Variable | Moyenne | Écart-type | Min | Max |
 |---|---|---|---|---|
 | Age | 35.5 ans | 11.4 | 19 | 75 |
 | Credit amount | 3 271 € | 2 823 € | 250 € | 18 424 € |
 | Duration | 20.9 mois | 12.1 | 4 | 72 |
-
+ 
 ### Profil des clients
 - **69%** sont des hommes
 - **63%** sont des travailleurs qualifiés (*skilled*)
 - **71.3%** sont propriétaires de leur logement
 - **33.7%** des crédits sont pour l'achat d'une voiture
-
-### Performance du modèle
-
-- **Accuracy :** XX%
-- **ROC-AUC :** 0,63
-- **Recall (classe Bad) :** XX%
-
+- **Taux de défaut global : 30%**
+ 
+### Performance des modèles
+ 
+| Métrique | Logit | Random Forest |
+|---|---|---|
+| Accuracy | 73% | 72% |
+| ROC-AUC | 0.779 | **0.799** |
+| Recall (Bad) | 43% | **67%** |
+| Precision (Bad) | 58% | 53% |
+| F1-Score (Bad) | 50% | 59% |
+ 
+### 🏆 Modèle retenu : Random Forest
+Le Random Forest est préférable d'un point de vue risque financier : il détecte **67% des clients en défaut** contre 43% pour le Logit, avec un meilleur ROC-AUC (0.799). La Régression Logistique reste utile pour l'interprétabilité réglementaire.
+ 
+### Variables les plus discriminantes (Logit — Odds Ratios)
+- 🔴 **Checking account** (OR = 0.57) c'est la variable la plus prédictive : un faible solde courant multiplie fortement le risque
+- 🔴 **Sex** (OR = 0.70) et **Saving accounts** (OR = 0.79) : l'épargne réduit significativement le risque
+- 🟡 **Duration** (OR = 1.045) : plus le crédit est long, plus le risque augmente
+- 🟡 **Housing** (OR = 1.24)  : le statut de logement influence le risque
+ 
+### Scores de risque (Random Forest — jeu de test)
+| Catégorie | Nombre de clients |
+|---|---|
+| Risque faible | 94 |
+| Risque modéré | 53 |
+| Risque élevé | 53 |
+ 
+> Les 9 premiers clients identifiés à "Risque élevé" ont tous réellement fait défaut et le modèle est très fiable dans les cas extrêmes.
+ 
 
 ---
 
