@@ -152,7 +152,7 @@ credit-scoring-germany/
 
 ## 👤 Auteur
 
-**[kétia HABONIMANA]**  
+**kétia HABONIMANA**  
 Etudiante en Master 2 Ingénierie des Données et Evaluations Econométriques  
 📧 ketiajoyeusehabonimana@gmail.com  
 🔗 [ketia Hb](https://www.linkedin.com/in/kétia-hb-4932203b5) | [Mon Github](https://github.com/ketia-hb)
