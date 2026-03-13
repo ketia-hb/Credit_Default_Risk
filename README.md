@@ -1,4 +1,4 @@
-# 🏦 Analyse du Risque de Crédit — German Credit Dataset
+# 🏦 Analyse du Risque de Crédit : German Credit Dataset
 
 ![ML](https://img.shields.io/badge/ML-Scikit--learn-orange.svg)
 ![Data Science](https://img.shields.io/badge/Data%20Science-Credit%20Default%20Risk-red.svg)
