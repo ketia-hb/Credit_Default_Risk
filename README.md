@@ -68,7 +68,6 @@ Ce projet analyse le jeu de données **German Credit Dataset** et construit un m
 
 ## 📁 Structure du projet
 
-```
 credit-scoring-germany/
 │
 ├── README.md
@@ -89,6 +88,7 @@ credit-scoring-germany/
     ├── feature_importance.png
     ├── confusion_matrices.png
     └── roc_curves.png
+
 ---
 
 ## 🔬 Méthodologie
