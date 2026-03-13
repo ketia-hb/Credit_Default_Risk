@@ -113,7 +113,7 @@ credit-scoring-germany/
 
 ---
 
-## 📈 Résultats clés
+## 📈 Principaux Résultats
 
 ### Statistiques descriptives
 
@@ -130,9 +130,9 @@ credit-scoring-germany/
 - **33.7%** des crédits sont pour l'achat d'une voiture
 
 ### Performance du modèle
-*(À compléter avec vos résultats)*
+
 - **Accuracy :** XX%
-- **ROC-AUC :** X.XX
+- **ROC-AUC :** 0,63
 - **Recall (classe Bad) :** XX%
 
 
