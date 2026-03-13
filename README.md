@@ -76,7 +76,7 @@ credit-scoring-germany/
 ├── credit_scoring.ipynb       # Analyse complète
 │
 ├── data/
-│   └── german_credit_data.csv     # Dataset source
+│   └── default.csv     # Dataset nettoyé
 │
 └── report/                    # Visualisations
     ├── target_distribution.png
