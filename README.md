@@ -144,7 +144,7 @@ credit-scoring-germany/
 | F1-Score (Bad) | 50% | 59% |
  
 ### 🏆 Modèle retenu : Random Forest
-Le Random Forest est préférable d'un point de vue risque financier : il détecte **67% des clients en défaut** contre 43% pour le Logit, avec un meilleur ROC-AUC (0.799). La Régression Logistique reste utile pour l'interprétabilité réglementaire.
+Le Random Forest est préférable d'un point de vue risque financier : il détecte **67% des clients en défaut** contre 43% pour le Logit, avec un meilleur ROC-AUC (0.799). La Régression Logistique reste utile pour justifier les décisions que prennent les institutions sur le fait de prêter ou pas.
  
 ### Variables les plus discriminantes (Logit - Odds Ratios)
 - 🔴 **Checking account** (OR = 0.57) c'est la variable la plus prédictive : un faible solde courant multiplie fortement le risque
