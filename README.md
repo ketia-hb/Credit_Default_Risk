@@ -98,7 +98,7 @@ credit-scoring-germany/
 - Détection et traitement des valeurs atypiques
 
 ### 2. Ingénierie des variables (Feature Engineering)
-- Transformation logarithmique de `Credit amount` → `log_credit` (pour corriger l'asymétrie)
+- Transformation logarithmique de `Credit amount` → `lcredit` (pour corriger l'asymétrie)
 - Création de `Age²` pour capturer les effets non-linéaires de l'âge
 - Encodage des variables catégorielles (Label Encoding / One-Hot)
 
