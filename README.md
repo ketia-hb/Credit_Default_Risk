@@ -121,10 +121,11 @@ credit-scoring-germany/
  
 | Variable | Moyenne | Écart-type | Min | Max |
 |---|---|---|---|---|
-| Age | 35.5 ans | 11.4 | 19 | 75 |
-| Credit amount | 3 271 € | 2 823 € | 250 € | 18 424 € |
-| Duration | 20.9 mois | 12.1 | 4 | 72 |
+| `Age` | 35.5 ans | 11.4 | 19 | 75 |
+| `Credit amount` | 3 271 € | 2 823 € | 250 € | 18 424 € |
+| `Duration` | 20.9 mois | 12.1 | 4 | 72 |
 
+ 
 ---
  
 ### Profil des clients
