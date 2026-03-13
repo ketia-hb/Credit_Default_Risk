@@ -111,7 +111,7 @@ credit-scoring-germany/
 - Évaluation : Accuracy, ROC-AUC, Matrice de confusion
 
 ### 4. Interprétation Économique
-> ⚠️ **Note importante** : Prédire "Good" pour un client "Bad" est bien plus coûteux pour l'institution que l'inverse. Le modèle est calibré pour minimiser ce type d'erreur.
+> ⚠️ **A Noter** : Prédire "Good" pour un client "Bad" est bien plus coûteux pour l'institution que l'inverse. Le modèle est calibré pour minimiser ce type d'erreur.
 
 ---
 
