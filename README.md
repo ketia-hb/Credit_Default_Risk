@@ -72,16 +72,13 @@ Ce projet analyse le jeu de données **German Credit Dataset** et construit un m
 credit-scoring-germany/
 │
 ├── README.md
-├── requirements.txt
-├── .gitignore
 │
-├── notebooks/
-│   └── credit_scoring.ipynb       # Analyse complète
+├── credit_scoring.ipynb       # Analyse complète
 │
 ├── data/
 │   └── german_credit_data.csv     # Dataset source
 │
-└── Graphiques/                    # Visualisations exportées
+└── report/                    # Visualisations
     ├── target_distribution.png
     ├── boxplots_default.png
     ├── default_rate_by_category.png
