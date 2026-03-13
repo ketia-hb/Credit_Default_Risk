@@ -148,8 +148,7 @@ credit-scoring-germany/
 
 **[kétia HABONIMANA]**  
 📧 ketiajoyeusehabonimana@gmail.com  
-🔗 [LinkedIn](www.linkedin.com/in/
-kétia-hb-4932203b5) | [GitHub](https://github.com/votre-username)
+🔗 [LinkedIn](www.linkedin.com/in/kétia-hb-4932203b5) | [GitHub](https://github.com/votre-username)
 
 ---
 
