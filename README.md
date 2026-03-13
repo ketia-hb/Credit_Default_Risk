@@ -67,7 +67,8 @@ Ce projet analyse le jeu de données **German Credit Dataset** et construit un m
 ---
 
 ## 📁 Structure du projet
-
+ 
+```
 credit-scoring-germany/
 │
 ├── README.md
@@ -78,9 +79,9 @@ credit-scoring-germany/
 │   └── credit_scoring.ipynb       # Analyse complète
 │
 ├── data/
-│   └── german_credit_data.csv     # source Data
+│   └── german_credit_data.csv     # Dataset source
 │
-└── Graphiques/                    # Visualisations 
+└── Graphiques/                    # Visualisations exportées
     ├── target_distribution.png
     ├── boxplots_default.png
     ├── default_rate_by_category.png
@@ -88,9 +89,9 @@ credit-scoring-germany/
     ├── feature_importance.png
     ├── confusion_matrices.png
     └── roc_curves.png
-
+```
+ 
 ---
-
 ## 🔬 Méthodologie
 
 ### 1. Analyse Exploratoire des données (EDA)
