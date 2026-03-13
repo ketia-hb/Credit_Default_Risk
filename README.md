@@ -35,7 +35,7 @@ Le **risque de crédit** est au cœur de l'activité bancaire. Prédire si un cl
 - Réduire les pertes liées aux impayés
 - Optimiser leur portefeuille de crédit
 
-Ce projet analyse le célèbre **German Credit Dataset** et construit un modèle de **credit scoring** basé sur des algorithmes de machine learning.
+Ce projet analyse le jeu de données **German Credit Dataset** et construit un modèle de **credit scoring** basé sur des algorithmes de machine learning.
 
 ---
 
