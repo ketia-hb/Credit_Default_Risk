@@ -1,9 +1,15 @@
 # 🏦 Analyse du Risque de Crédit — German Credit Dataset
 
+![ML](https://img.shields.io/badge/ML-Scikit--learn-orange.svg)
+![Data Science](https://img.shields.io/badge/Data%20Science-Credit%20Default%20Risk-red.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2%2B-orange?logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1.5%2B-150458?logo=pandas&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 > **Analyse exploratoire et modèle de credit scoring sur 1000 clients allemands.**  
 > L'objectif est d'identifier les clients à risque de défaut de crédit à partir de leurs caractéristiques socio-économiques.
@@ -147,7 +153,7 @@ credit-scoring-germany/
 ## 👤 Auteur
 
 **[kétia HABONIMANA]**  
-Etudiante en Master 2 Ingénierie des Données et Évaluation Économétrique  
+Etudiante en Master 2 Ingénierie des Données et Evaluations Econométriques  
 📧 ketiajoyeusehabonimana@gmail.com  
 🔗 [ketia Hb](https://www.linkedin.com/in/kétia-hb-4932203b5) | [Mon Github](https://github.com/ketia-hb)
 
@@ -159,4 +165,9 @@ Ce projet est sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus 
 
 ---
 
-*Dataset original : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))*
+*Dataset original : [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data))*
+Kaggle pour les données
+
+---
+
+*Projet personnel - 2026*
